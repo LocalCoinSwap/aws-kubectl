@@ -1,4 +1,4 @@
-name: kubectl-aws-eks
+name: lcs-aws-kubectl
 description: "Action to provide kubectl on Github Actions."
 author: 'LocalCoinSwap'
 branding:
