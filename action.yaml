@@ -1,0 +1,9 @@
+name: kubectl-aws-eks
+description: "Action to provide kubectl on Github Actions."
+author: 'LocalCoinSwap'
+branding:
+    color: 'white'
+    icon: 'command'
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
