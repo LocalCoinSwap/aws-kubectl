@@ -42,7 +42,7 @@ jobs:
       uses: aws-actions/amazon-ecr-login@v1
 
     - name: Set new image on deployment
-      uses: LocalCoinSwap/aws-kubectl@v1
+      uses: LocalCoinSwap/aws-kubectl@v4
       env:
         KUBE_CONFIG_DATA: ${{ secrets.YOUR_KUBE_CONFIG_DATA_KEY }}
         ECR_REGISTRY: ${{ steps.login-ecr.outputs.registry }}
